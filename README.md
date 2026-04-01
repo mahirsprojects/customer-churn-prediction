@@ -73,7 +73,7 @@ PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup,
 DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, 
 PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges."*
 
-ChatGPT's ranking is saved in `ai_inputs/chatgpt_feature_ranking.txt`.
+ChatGPT's ranking is saved in `ai_inputs/chatgpt_feature_ranking.rtf`.
 
 The model's actual feature importance is compared against that ranking in the 
 findings below.
@@ -90,7 +90,7 @@ findings below.
 
 ## Model Performance
 
-The model was evaluated on 1409 customers it had never seen during training.
+The model was evaluated on 1409 customers it had never seen during training. ChatGPT predicted right and confirms these findings.
 
 - Overall accuracy: 78%
 - Churn recall: 61% (the model caught 230 out of 374 actual churners)
